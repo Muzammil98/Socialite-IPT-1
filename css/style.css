@@ -1,0 +1,68 @@
+body {
+  background: #333;
+  color: #dfdfdf;
+}
+
+.navbar {
+  border-bottom: 2px solid rgb(112, 55, 138);
+  opacity: 0.8;
+}
+#home-section {
+  background: url("../img/banjo.jpg") no-repeat center center/cover;
+  min-height: 700px;
+}
+#about-section {
+  background: url("../img/about.jpg") no-repeat center center/cover;
+  min-height: 700px;
+}
+#about-section .dark-overlay {
+  position: absolute;
+  min-height: 700px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+#home-section .dark-overlay {
+  position: absolute;
+  min-height: 700px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+#about-section .dark-overlay {
+  position: absolute;
+  min-height: 700px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+#home-section .home-inner {
+  padding-top: 150px;
+}
+#about-section .about-inner {
+  padding-top: 150px;
+}
+.card-form {
+  opacity: 0.8;
+}
+#home-section .fas,
+#create-section .fas,
+#about-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+#explore-section .fas,
+#share-section .fas {
+  color: #fff;
+  background: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
